@@ -28,7 +28,7 @@
  */
 
 /*
- * Driver code is in kern/tests/synchprobs.c We will replace that file. This
+ * Driver code is in kern/test/synchprobs.c We will replace that file. This
  * file is yours to modify as you see fit.
  *
  * You should implement your solution to the stoplight problem below. The
@@ -55,7 +55,7 @@
  * leaveIntersection().
  *
  * You will probably want to write some helper functions to assist with the
- * mappings. Modular arithmetic can help, e.g. a car passing straight through
+ * mappings. Modular arithmetic can help, e.g. a car turning left through
  * the intersection entering from direction X will leave to direction (X + 2)
  * % 4 and pass through quadrants X and (X + 3) % 4.  Boo-yah.
  *
